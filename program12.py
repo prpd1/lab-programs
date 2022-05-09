@@ -1,6 +1,6 @@
 #Write a program to convert the given seconds into hours – minutes – seconds.
 
-x = int(input("enter seconds"))
+x = int(input("enter seconds:"))
 hours = x//3600
 y = x%3600
 minutes = y//60
